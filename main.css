@@ -13,11 +13,25 @@
     align-content: space-around;
 }
 
-.animal {
-    /* flex-basis: 25%; */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-img {
+.animal, .animal2 {
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.animal img {
+    width: 300px;
+    height: auto;
+}
+
+.animal2 img {
     width: 300px;
     height: auto;
 }
